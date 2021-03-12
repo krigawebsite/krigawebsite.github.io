@@ -3,10 +3,10 @@ layout: home
 header:
   title: Tischlerei Kritzl & Gassner
   text: >
-    testStart Bootstrap can help you build better websites using the Bootstrap
+    Start Bootstrap can help you build better websites using the Bootstrap
     framework! Just download a theme and start customizing, no strings attached!
   action: # action button is optional
-    label: Find Out More
+    label: Lernen Sie uns kennen!
     url: '#about'
 
 
@@ -77,30 +77,23 @@ sections:
     title: Unser Team
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
+      - title: Michael Kritzl
+        text: Verkauf
         image: assets/img/members/person1.jpg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
+      - title: Friedrich Gassner
+        text: Produktion
         image: assets/img/members/person2.jpg
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
+      - title: Lukas Müller
+        text: CAD Konstruktion und Planung
         image: assets/img/members/person3.jpg
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
+      - title: Hans Muster
+        text: Montage und Produktion
         image: assets/img/members/person5.jpg
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+      
 
   - type: contact.html
     section_id: contacts
@@ -117,6 +110,10 @@ sections:
       url: mailto:office@kriga.at
     - title: Facebook
       icon: fa-facebook
+      icon_type: fab
+      url: 'https://www.facebook.com/Tischlerei-KritzlGassner-OG-1499374380371925/'
+    - title: Instagram
+      icon: fa-instagram
       icon_type: fab
       url: 'https://www.facebook.com/Tischlerei-KritzlGassner-OG-1499374380371925/'
 
