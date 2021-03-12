@@ -1,9 +1,9 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Tischlerei Kritzl & Gassner
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
+    testStart Bootstrap can help you build better websites using the Bootstrap
     framework! Just download a theme and start customizing, no strings attached!
   action: # action button is optional
     label: Find Out More
@@ -14,7 +14,7 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
+    title: Ihr Wohntraum ist uns wichtig!
     text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
     actions:
       - title: Get Started!
@@ -24,27 +24,20 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Unser Angebot
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
+      - title: Beratung
+        text: Wir beraten Sie bei der Umsetzung Ihres Wohntraums!
+        icon: fa-people-arrows
+      - title: Planung
         text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
+        icon: fa-ruler
+      - title: Produktion
         text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
+        icon: fa-tree
+      - title: Montage
         text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
+        icon: fa-people-carry
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
@@ -79,17 +72,9 @@ sections:
         icon: 6.jpg
         url: '#'
 
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
-
   - type: members.html
-    section_id: members
-    title: Our Crew!
+    section_id: team
+    title: Unser Team
     background_style: bg-info text-white
     members:
       - title: Christina M. Aponte
@@ -117,46 +102,22 @@ sections:
         image: assets/img/members/person7.jpg
         url: '#'
 
-  - type: timeline.html
-    section_id: timeline
-    title: Major Achievements!
-    background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
-    actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
-        title: >+
-          2017-2018
-          **Humble Beginnings**
-        text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
-        title: >+
-          November 2019
-          An Coaching started
-        text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
-
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Kontaktieren Sie uns!
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
+    - title: +43 (0) 660 / 4047151
       icon: fa-phone
-    - title: E-Mail
+      url: 'tel:+436604047151'
+    - title: office@kriga.at
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
-      icon_type: fab
-      url: '#'
+      url: mailto:office@kriga.at
     - title: Facebook
       icon: fa-facebook
       icon_type: fab
-      url: '#'
+      url: 'https://www.facebook.com/Tischlerei-KritzlGassner-OG-1499374380371925/'
 
 ---
