@@ -3,11 +3,11 @@
  * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
  */
-(function($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using anime.js
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function() {
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
         if (
             location.pathname.replace(/^\//, "") ==
             this.pathname.replace(/^\//, "") &&
@@ -30,7 +30,7 @@
     });
 
     // Closes responsive menu when a scroll trigger link is clicked
-    $('.js-scroll-trigger').click(function() {
+    $('.js-scroll-trigger').click(function () {
         $('.navbar-collapse').collapse('hide');
     });
 
@@ -41,7 +41,7 @@
     });
 
     // Collapse Navbar
-    var navbarCollapse = function() {
+    var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-scrolled");
         } else {
@@ -71,14 +71,19 @@
 
 
     //map
-    var map = L.map('map').setView([48.1288, 14.9897], 17);
+    var map = L.map('map', {
+        center: [48.1288, 14.9897],
+        zoom: 18,
+        gestureHandling: true
+    });
+
 
     L.tileLayer('https://maps.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png', {
         attribution: 'Datenquelle: <a href="https://www.openstreetmap.org/copyright">basemap.at</a>',
         maxZoom: 19,
         minZoom: 9,
         tileSize: 512,
-        gestureHandling: true
+        zoomOffset: -1,
     }).addTo(map);
 
     var marker = L.marker([48.1288, 14.9897]).addTo(map);
