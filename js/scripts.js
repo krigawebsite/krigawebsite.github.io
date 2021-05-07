@@ -71,15 +71,14 @@
 
 
     //map
-    var map = L.map('map').setView([48.1288, 14.9897], 18);
+    var map = L.map('map').setView([48.1288, 14.9897], 17);
 
     L.tileLayer('https://maps.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png', {
         attribution: 'Datenquelle: <a href="https://www.openstreetmap.org/copyright">basemap.at</a>',
         maxZoom: 19,
         minZoom: 9,
         tileSize: 512,
-        zoomOffset: -1,
-        accessToken: 'your.mapbox.access.token'
+        gestureHandling: true
     }).addTo(map);
 
     var marker = L.marker([48.1288, 14.9897]).addTo(map);
