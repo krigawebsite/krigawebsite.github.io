@@ -81,7 +81,7 @@
                 scroll: "Benutzen Sie Strg + Scroll um die Karte zu zoomen",
                 scrollMac: "Benutzen Sie \u2318 + Scroll um die Karte zu zoomen"
             },
-            duration: 3000
+            duration: 1000
         }
     });
 
