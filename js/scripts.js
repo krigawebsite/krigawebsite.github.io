@@ -74,7 +74,14 @@
     var map = L.map('map', {
         center: [48.1288, 14.9897],
         zoom: 18,
-        gestureHandling: true
+        gestureHandling: true,
+        gestureHandlingOptions: {
+            text: {
+                touch: "Benutzen Sie zwei Finger um die Karte zu bewegen",
+                scroll: "Benutzen Sie Strg + Scroll um die Karte zu zoomen",
+                scrollMac: "Benutzen Sie \u2318 + Scroll um die Karte zu zoomen"
+            }
+        }
     });
 
 
