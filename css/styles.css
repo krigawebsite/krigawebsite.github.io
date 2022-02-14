@@ -10351,3 +10351,7 @@ header.masthead h1 {
     width: 100%;
     height: 500px;
 }
+
+#example3 .sp-selected-thumbnail {
+	border: 4px solid #000;
+}
